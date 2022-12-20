@@ -10,6 +10,7 @@ const letter = ref(props.letter);
       type="text"
       v-if="![' ', '.', '4'].includes(props.secret)"
       v-model="letter"
+      maxlength="1"
     />
     <span>{{ props.secret }}</span>
   </div>
