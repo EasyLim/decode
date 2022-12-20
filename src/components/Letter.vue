@@ -23,5 +23,10 @@ div {
   width: 15px;
   height: 20px;
   margin: 2px;
+  align-items: center;
+}
+input {
+  width: 10px;
+  text-align: center;
 }
 </style>
